@@ -33,7 +33,7 @@ counter = 0
    end
  end
 end
-counter
+return counter
 
 def get_occupation(data, hometown)
   # code here
