@@ -27,7 +27,7 @@ counter = 0
     list.each do |person|
       person.each do |topic, detail|
        if detail == hometown
-       counter +=1
+        counter +=1
       end
     end
    end
