@@ -28,9 +28,10 @@ def count_contestants_by_hometown(data, hometown)
       person.each do |topic, detail|
       if detail == hometown
        num_contestants +1
-     end
+      end
+    end
    end
- end
+  end
 end
 counter
 
