@@ -13,8 +13,7 @@ def get_contestant_name(data, occupation)
   data.each do |season, contestant|
     contestant.each do |topic, detail|
       if detail == occupation
-        name = contestant["name"]
-        return name
+       return topic["name"]
       end
     end
   end
