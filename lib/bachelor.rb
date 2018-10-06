@@ -4,6 +4,9 @@ def get_first_name_of_season_winner(data, season)
       if detail == "Winner"
         name = contestant["name"]
         return name.split(' ' ).first
+      end
+    end
+  end
 end
 
 def get_contestant_name(data, occupation)
