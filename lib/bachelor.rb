@@ -27,7 +27,7 @@ def count_contestants_by_hometown(data, hometown)
     list.each do |person|
       person.each do |topic, detail|
       if detail == hometown
-       return person["name"] << num_contestants
+       num_contestants +1
 end
 
 def get_occupation(data, hometown)
