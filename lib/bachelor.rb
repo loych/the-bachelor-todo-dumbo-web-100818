@@ -1,7 +1,6 @@
 def get_first_name_of_season_winner(data, season)
-  data[season].each do |topics, details|
-    if topics = "status"
-      "status".find do ("Winner")
+  data[season].each do |contestant|
+    contestant.each do ("Winner")
       return ("Winner").first word
 end
 
