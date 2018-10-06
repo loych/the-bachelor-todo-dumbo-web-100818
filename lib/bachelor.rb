@@ -22,7 +22,12 @@ end
 end
 
 def count_contestants_by_hometown(data, hometown)
-  # code here
+  num_contestants = 0 
+  data.each do |season, list|
+    list.each do |person|
+      person.each do |topic, detail|
+      if detail == occupation
+       return person["name"]
 end
 
 def get_occupation(data, hometown)
