@@ -1,5 +1,6 @@
 def get_first_name_of_season_winner(data, season)
   "season 19".each do |topics, details|
+    if topics =
 end
 
 def get_contestant_name(data, occupation)
