@@ -11,8 +11,8 @@ end
 
 def get_contestant_name(data, occupation)
   data.each do |season, list|
-    list.each do |person, topic|
-      topic.each do |detail|
+    list.each do |person|
+      person.each do |topic, detail|
       if detail == occupation
        return topic["name"]
       end
