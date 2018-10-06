@@ -26,7 +26,7 @@ counter = 0
   data.each do |season, list|
     list.each do |person|
       person.each do |topic, detail|
-      if detail == hometown
+       if detail == hometown
        counter +=1
       end
     end
